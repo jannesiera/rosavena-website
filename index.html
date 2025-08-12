@@ -3,20 +3,22 @@
 
 <head>
 
-    <title>Rosavena Labs</title>
+    <title>Rosavena</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light only">
-    <meta name="description" content="Rosacea Skincare">
-    <meta property="og:site_name" content="Rosavena Labs">
-    <meta property="og:title" content="Rosavena Labs">
+    <meta name="description"
+        content="You test a new cream each week and observe how your skin responds. If your rosacea flares up, you’ll know exactly which ingredient caused it.">
+    <meta property="og:site_name" content="Rosavena">
+    <meta property="og:title" content="Rosavena">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Rosacea Skincare">
+    <meta property="og:description"
+        content="You test a new cream each week and observe how your skin responds. If your rosacea flares up, you’ll know exactly which ingredient caused it.">
     <meta property="og:image" content="https://rosavenalabs.com/assets/container01.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="800">
-    <meta property="og:url" content="https://rosavenalabs.com">
+    <meta property="og:url" content="https://www.rosavenalabs.com">
     <meta property="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://rosavenalabs.com">
     <link
@@ -2248,6 +2250,31 @@
             background-color: #399E5A;
         }
     </style>
+    <style>
+        .ig-fab {
+            position: fixed;
+            right: 16px;
+            bottom: 20px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+            z-index: 9999;
+            background: white;
+            text-decoration: none;
+        }
+
+        @media(min-width:1024px) {
+            .ig-fab {
+                /* display: none; */
+            }
+
+            /* keep for mobile only if desired */
+        }
+    </style>
     <script>
         const openModal = () => {
             document.getElementById('backdrop').classList.add('open');
@@ -2308,11 +2335,11 @@
     </div>
     <div id="wrapper">
         <div id="main">
-            <div class="container" style="opacity: 1;position:fixed;background-color: white;display:flex; flex-direction: row; align-items:center;justify-content:space-between;z-index: 100000;left:0;right:0;top:0;padding: 16px 120px;    border-color: #E3E3E3;
+            <div class="container" style="opacity: 1;position:fixed;background-color: white;display:flex; flex-direction: row; align-items:center;justify-content:space-between;z-index: 100000;left:0;right:0;top:0;padding: 1vw 6vw;    border-color: #E3E3E3;
     border-style: solid;
     border-bottom-width: 1px;">
                 <div>
-                    <h1 id="text13" class="style6">Rosavena Labs</h1>
+                    <h1 id="text13" class="style6">Rosavena</h1>
                 </div>
                 <div>
                     <ul id="buttons02" class="style1 buttons" style="opacity: 1; transform: none;"
@@ -2320,7 +2347,7 @@
                         <li><a class="button n01 openmodal" role="button"><svg aria-labelledby="buttons02-icon-1-title">
                                     <title id="buttons02-icon-1-title">Email</title>
                                     <use xlink:href="#icon-c3c8e1063e3b7f84f6b54712741de139"></use>
-                                </svg><span class="label">I want to try it</span></a></li>
+                                </svg><span class="label">Join the waitlist</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -2373,7 +2400,8 @@
                     <div class="wrapper">
                         <div class="inner" data-onvisible-trigger="1" data-reorder="1,0">
                             <div>
-                                <h3 id="text09" class="style2" style="opacity: 1; transform: none;">6 mini-creams</h3>
+                                <h3 id="text09" class="style2" style="opacity: 1; transform: none;">Test 6 targeted
+                                    creams in 6 weeks.</h3>
                                 <p id="text10" class="style3" style="opacity: 1; transform: none;"><span class="p">I’m
                                         developing a kit of six mini creams, each designed to help you identify exactly
                                         what your skin can, or cannot, tolerate.</span><span class="p">We start with a
@@ -2388,8 +2416,9 @@
                                             version.</strong></span></p>
                             </div>
                             <div>
-                                <h2 id="text06" class="style1"><span class="p" style="opacity: 1; transform: none;">No
-                                        more guesswork.<br> No more mystery flare-ups.</span></h2>
+                                <h2 id="text06" class="style1"><span class="p" style="opacity: 1; transform: none;">Find
+                                        the right moisturizer for
+                                        <em>your</em> rosacea.</span></h2>
                             </div>
                         </div>
                     </div>
@@ -2439,7 +2468,7 @@
                                                 <title id="buttons01-icon-1-title">Email</title>
                                                 <use xlink:href="#icon-c3c8e1063e3b7f84f6b54712741de139"></use>
                                             </svg>
-                                            <span class="label">I want to try it</span>
+                                            <span class="label">Join the waitlist</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -2449,7 +2478,7 @@
                 </div>
                 <hr id="divider02" class="style1 full screen">
                 <ul id="icons01" class="style1 icons">
-                    <li style="opacity: 1; transform: none;"><a class="n01" href="#" role="button">
+                    <li style="opacity: 1; transform: none; visibility: hidden;"><a class="n01" href="#" role="button">
                             <svg aria-labelledby="icons01-icon-1-title">
                                 <title id="icons01-icon-1-title">Instagram</title>
                                 <use xlink:href="#icon-85976685de3e4af37529a1ce5d57d2a7"></use>
@@ -2460,6 +2489,15 @@
             </div>
         </div>
     </div>
+    <!-- put near end of body -->
+    <a href="https://instagram.com/rosavena.labs?utm_source=website&utm_medium=sticky&utm_campaign=follow_cta"
+        target="_blank" rel="noopener noreferrer" class="ig-fab" aria-label="Follow Rosavena Labs on Instagram">
+        <!-- <img src="/icons/instagram.svg" alt="Instagram" style="width:22px;height:22px;"> -->
+        <svg aria-labelledby="icons01-icon-1-title" style="width:32px;height:32px;">
+            <title id="icons01-icon-1-title">Instagram</title>
+            <use xlink:href="#icon-85976685de3e4af37529a1ce5d57d2a7"></use>
+        </svg>
+    </a>
     <script>
         for (let el of document.getElementsByClassName('openmodal')) {
             el.addEventListener('click', () => {
